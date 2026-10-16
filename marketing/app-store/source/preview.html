@@ -56,6 +56,16 @@
 
       body { position: relative; }
 
+      html[data-display="medium"], html[data-display="medium"] body {
+        width: 402px;
+        height: 874px;
+      }
+
+      html[data-display="medium"] .slide {
+        transform: scale(calc(402 / 440));
+        transform-origin: top left;
+      }
+
       .slide {
         width: 440px;
         height: 956px;
@@ -721,7 +731,9 @@
       // Requested story order; preserve the original slide implementations above.
       const orderedSlides = [slides[1], slides[4], slides[5], slides[3], slides[2], slides[6], slides[7], slides[8]];
 
-      const selected = Number(new URLSearchParams(location.search).get('slide') || 1);
+      const params = new URLSearchParams(location.search);
+      document.documentElement.dataset.display = params.get('display') || 'large';
+      const selected = Number(params.get('slide') || 1);
       document.getElementById('root').innerHTML = (orderedSlides[selected - 1] || orderedSlides[0])();
     </script>
   </body>

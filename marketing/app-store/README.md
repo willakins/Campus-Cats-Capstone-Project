@@ -2,6 +2,9 @@
 
 For reusable listing copy and metadata answers, see [App Store listing answers](../app-store-listing.md).
 
+For Android uploads, use the separate [Google Play assets and upload guide](../google-play/README.md).
+The Apple header and iPhone dimensions below do not match Google Play's fields.
+
 ## Header and search results
 
 The following static creative assets are ready to select in App Store Connect's
@@ -47,10 +50,25 @@ and is scaled during the header export. The exact prompt and provenance are reco
 in [source/creative/header-prompt.txt](source/creative/header-prompt.txt). All final
 marketing typography and placement are rendered from HTML/CSS.
 
-## Portrait app previews
+## Portrait screenshots
 
-Eight portrait marketing previews are in `../../assets/images/app_previews/`.
-Each PNG is 1320 × 2868 pixels, rendered at 3× from a 440 × 956 layout.
+Eight portrait marketing compositions are exported for each iPhone display group.
+Upload them in **App Previews and Screenshots → iPhone → Screenshots**, matching
+the display group selected in Media Manager:
+
+| Media Manager display group | Folder | PNG dimensions |
+| --- | --- | --- |
+| **iPhone with Dynamic Island (medium display)** — required on the supplied submission page | [`assets/images/app_previews/apple/iphone-medium/`](../../assets/images/app_previews/apple/iphone-medium/) | **1206 × 2622** |
+| iPhone with Dynamic Island (large display) | [`assets/images/app_previews/apple/iphone-large/`](../../assets/images/app_previews/apple/iphone-large/) | 1320 × 2868 |
+
+Both folders contain the eight filenames below. The 1320 × 2868 images in `apple/iphone-large/`
+are rejected by the medium-display slot; use the files inside `apple/iphone-medium/`
+for that slot. These are opaque RGB PNGs. App Preview slots are for videos,
+not these still images. There are no iPad exports in this set, and
+`preview-sheet.png` is an overview rather than an upload file.
+
+The medium export renders the same composition proportionally within a 402 × 874
+canvas at 3×. The large export uses a 440 × 956 canvas at 3×.
 
 | Image                          | Focus                                                        |
 | ------------------------------ | ------------------------------------------------------------ |
@@ -75,10 +93,17 @@ bash marketing/app-store/render-previews.sh
 ```
 
 The renderer uses a temporary Chromium profile, waits for local assets, and writes
-all eight PNGs. To refresh the overview with ImageMagick installed:
+all eight PNGs in both sizes. To regenerate only the required medium-display set:
 
 ```bash
-magick montage assets/images/app_previews/*.png -thumbnail 440x956 -tile 4x2 -geometry +8+8 marketing/app-store/preview-sheet.png
+bash marketing/app-store/render-previews.sh medium
+```
+
+Pass `large` to regenerate only the large-display set. To refresh the overview
+with ImageMagick installed:
+
+```bash
+magick montage assets/images/app_previews/apple/iphone-large/*.png -thumbnail 440x956 -tile 4x2 -geometry +8+8 marketing/app-store/preview-sheet.png
 ```
 
 ## Artwork and product accuracy

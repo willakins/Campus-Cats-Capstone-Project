@@ -1,0 +1,70 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="720"
+  height="1280"
+  viewBox="0 0 720 1280"
+>
+  <rect width="720" height="1280" fill="#edf0e8" />
+  <g fill="#d4e6c5">
+    <path d="M0 0H288L234 280H0Z" />
+    <path d="M466 0H720V316L510 276Z" />
+    <path d="M330 452L640 480 686 806 421 858 292 672Z" />
+    <path d="M0 845L274 806 314 1080 150 1280H0Z" />
+    <path d="M410 1064L720 966V1280H390Z" />
+  </g>
+  <g stroke="#d9d7ce" fill="none" stroke-width="36">
+    <path d="M-20 340L736 330" />
+    <path d="M-20 913L743 904" />
+    <path d="M335-20L318 380 200 670 342 1299" />
+    <path d="M630-10L526 377 549 703 600 1300" />
+  </g>
+  <g stroke="#fff" fill="none" stroke-width="29">
+    <path d="M-20 340L736 330" />
+    <path d="M-20 913L743 904" />
+    <path d="M335-20L318 380 200 670 342 1299" />
+    <path d="M630-10L526 377 549 703 600 1300" />
+  </g>
+  <g stroke="#fffdf6" fill="none" stroke-width="10">
+    <path d="M-20 585L195 561 367 604 751 635" />
+    <path d="M393 350L429 913" />
+    <path d="M280 1071L727 1132" />
+    <path d="M74 331V904" />
+    <path d="M485 910L479 1280" />
+  </g>
+  <g fill="#e4ddce" stroke="#d0c7b6" stroke-width="2">
+    <rect x="79" y="160" width="149" height="101" rx="7" />
+    <path d="M80 398H212V468H158V518H80Z" />
+    <rect x="352" y="172" width="153" height="90" rx="6" />
+    <rect x="339" y="393" width="69" height="143" rx="5" />
+    <rect x="94" y="709" width="86" height="128" rx="6" />
+    <rect x="454" y="700" width="70" height="143" rx="6" />
+    <rect x="582" y="441" width="114" height="110" rx="5" />
+    <rect x="606" y="724" width="98" height="108" rx="6" />
+    <rect x="324" y="963" width="101" height="81" rx="5" />
+    <rect x="352" y="1139" width="80" height="99" rx="6" />
+  </g>
+  <g fill="#9fc990" opacity=".7">
+    <circle cx="111" cy="88" r="35" />
+    <circle cx="199" cy="68" r="27" />
+    <circle cx="459" cy="540" r="34" />
+    <circle cx="486" cy="602" r="29" />
+    <circle cx="357" cy="742" r="44" />
+    <circle cx="130" cy="1017" r="39" />
+    <circle cx="172" cy="1100" r="31" />
+    <circle cx="648" cy="1024" r="38" />
+  </g>
+  <g
+    fill="#657064"
+    font-family="Arial,sans-serif"
+    font-size="17"
+    text-anchor="middle"
+  >
+    <text x="156" y="300">Library Grove</text>
+    <text x="428" y="289">Student Center</text>
+    <text x="372" y="659">Campus Green</text>
+    <text x="116" y="869">Science Hall</text>
+    <text x="395" y="886">Campus Walk</text>
+    <text x="114" y="1203">Garden Path</text>
+    <text x="643" y="589">East Courtyard</text>
+  </g>
+</svg>

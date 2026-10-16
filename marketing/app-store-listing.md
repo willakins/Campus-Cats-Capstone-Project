@@ -253,6 +253,13 @@ unknown ownership year. See Apple's [copyright field definition](https://develop
 For the matching header, search-results art, and portrait previews, see
 [app-store/README.md](app-store/README.md).
 
+For **iPhone with Dynamic Island (medium display)** screenshots, upload the eight
+**1206 × 2622** PNGs in
+[`assets/images/app_previews/apple/iphone-medium/`](../assets/images/app_previews/apple/iphone-medium/).
+The **1320 × 2868** PNGs in [`apple/iphone-large/`](../assets/images/app_previews/apple/iphone-large/) belong to the
+**large display** group and fail dimension validation in the medium-display slot.
+Use the Screenshots area; App Preview slots require video files.
+
 ## App Information page
 
 Use this section for **General → App Information**, including Localizable Information.

@@ -32,51 +32,55 @@ community, and operational tools.
 Select any preview to open the full-size image. These are illustrative marketing
 previews with fictional community data, rendered from the current UI patterns.
 
+Browse [Apple previews](assets/images/app_previews/apple/),
+[Android phone previews](assets/images/app_previews/android/phone/), or the
+[full device and size guide](assets/images/app_previews/README.md).
+
 <table>
   <tr>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/01-live-sighting-map.png"><img src="assets/images/app_previews/01-live-sighting-map.png" alt="Campus Cats sightings preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/01-live-sighting-map.png"><img src="assets/images/app_previews/apple/iphone-large/01-live-sighting-map.png" alt="Campus Cats sightings preview" width="320" /></a>
       <br /><strong>Sightings</strong>
       <br />Report sightings with photos, locations, and condition.
     </td>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/02-community-hub.png"><img src="assets/images/app_previews/02-community-hub.png" alt="Campus Cats community preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/02-community-hub.png"><img src="assets/images/app_previews/apple/iphone-large/02-community-hub.png" alt="Campus Cats community preview" width="320" /></a>
       <br /><strong>Community</strong>
       <br />Bring alerts, chat, events, surveys, votes, and donations together.
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/03-presidential-election.png"><img src="assets/images/app_previews/03-presidential-election.png" alt="Campus Cats club presidential election preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/03-presidential-election.png"><img src="assets/images/app_previews/apple/iphone-large/03-presidential-election.png" alt="Campus Cats club presidential election preview" width="320" /></a>
       <br /><strong>Club presidential election</strong>
       <br />Meet nominees and cast a private ballot for the next club president.
     </td>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/04-feeding-stations.png"><img src="assets/images/app_previews/04-feeding-stations.png" alt="Campus Cats feeding stations preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/04-feeding-stations.png"><img src="assets/images/app_previews/apple/iphone-large/04-feeding-stations.png" alt="Campus Cats feeding stations preview" width="320" /></a>
       <br /><strong>Feeding stations</strong>
       <br />See stock status and the cats known at each station.
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/05-cat-catalog.png"><img src="assets/images/app_previews/05-cat-catalog.png" alt="Campus Cats cat catalog preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/05-cat-catalog.png"><img src="assets/images/app_previews/apple/iphone-large/05-cat-catalog.png" alt="Campus Cats cat catalog preview" width="320" /></a>
       <br /><strong>Cat catalog</strong>
       <br />Meet campus cats and explore their profiles, favorites, and recent activity.
     </td>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/06-cat-sighting-history.png"><img src="assets/images/app_previews/06-cat-sighting-history.png" alt="Campus Cats cat profile & sighting history preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/06-cat-sighting-history.png"><img src="assets/images/app_previews/apple/iphone-large/06-cat-sighting-history.png" alt="Campus Cats cat profile & sighting history preview" width="320" /></a>
       <br /><strong>Cat profile & sighting history</strong>
       <br />Scrub through recorded sightings to explore a cat’s movement over time.
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/07-member-profile.png"><img src="assets/images/app_previews/07-member-profile.png" alt="Campus Cats member profiles preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/07-member-profile.png"><img src="assets/images/app_previews/apple/iphone-large/07-member-profile.png" alt="Campus Cats member profiles preview" width="320" /></a>
       <br /><strong>Member profiles</strong>
       <br />Celebrate achievements, choose a title, and share your contributions.
     </td>
     <td align="center" width="50%">
-      <a href="assets/images/app_previews/08-donation-setup.png"><img src="assets/images/app_previews/08-donation-setup.png" alt="Campus Cats donation page preview" width="320" /></a>
+      <a href="assets/images/app_previews/apple/iphone-large/08-donation-setup.png"><img src="assets/images/app_previews/apple/iphone-large/08-donation-setup.png" alt="Campus Cats donation page preview" width="320" /></a>
       <br /><strong>Donation page</strong>
       <br />Show your club’s cause and give members a clear path to donate.
     </td>
